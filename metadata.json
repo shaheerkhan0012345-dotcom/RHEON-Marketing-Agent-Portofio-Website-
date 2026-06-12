@@ -1,0 +1,6 @@
+{
+  "name": "RHEON Digital Marketing",
+  "description": "A responsive digital marketing hero section with interactive proposal generation and contact workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
