@@ -2,6 +2,10 @@ import React, { useEffect, useRef } from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import articleDigitalPrImage from '../assets/images/article_digital_pr_1781264253341.jpg';
+import articleAdvertisingTrendsImage from '../assets/images/article_advertising_trends_1781264273604.jpg';
+import articleProgrammaticSeoImage from '../assets/images/article_programmatic_seo_1781264292649.jpg';
+import articleGoogleProfileImage from '../assets/images/article_google_profile_1781264308436.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -18,25 +22,25 @@ export default function ArticlesSection({ onOpenProposal }: ArticlesSectionProps
   const articles = [
     {
       title: "What Is Digital PR and How Can It Impact My Business?",
-      img: "/src/assets/images/article_digital_pr_1781264253341.jpg",
+      img: articleDigitalPrImage,
       category: "PR & Brand",
       readTime: "4 min read"
     },
     {
       title: "20 Key Advertising Trends To Watch in 2024",
-      img: "/src/assets/images/article_advertising_trends_1781264273604.jpg",
+      img: articleAdvertisingTrendsImage,
       category: "Trends",
       readTime: "5 min read"
     },
     {
       title: "Programmatic SEO: What Is It and Why Your Business",
-      img: "/src/assets/images/article_programmatic_seo_1781264292649.jpg",
+      img: articleProgrammaticSeoImage,
       category: "SEO",
       readTime: "3 min read"
     },
     {
       title: "Google Business Profile: A Local SEO Essential",
-      img: "/src/assets/images/article_google_profile_1781264308436.jpg",
+      img: articleGoogleProfileImage,
       category: "Local SEO",
       readTime: "6 min read"
     }

@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'motion/react';
 import { gsap } from 'gsap';
+import strategistAvatarImage from '../assets/images/strategist_avatar.jpg';
+import strategistAvatarHoverImage from '../assets/images/strategist_avatar_hover.png';
 
 interface StrategistSectionProps {
   onOpenProposal: () => void;
@@ -143,14 +145,14 @@ export default function StrategistSection({ onOpenProposal, onOpenContact }: Str
           >
             {/* Base Image */}
             <img
-              src="/src/assets/images/strategist_avatar.jpg"
+              src={strategistAvatarImage}
               alt="RHEON Digital Marketing Lead Advisor"
               className="absolute inset-0 w-full h-full object-cover object-[center_20%] select-none transition-opacity duration-500 ease-in-out group-hover:opacity-0"
               referrerPolicy="no-referrer"
             />
             {/* Hover Image */}
             <img
-              src="/src/assets/images/strategist_avatar_hover.png"
+              src={strategistAvatarHoverImage}
               alt="RHEON Digital Marketing Lead Advisor Hover"
               className="absolute inset-0 w-full h-full object-cover object-[center_20%] select-none opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100"
               referrerPolicy="no-referrer"

@@ -328,7 +328,7 @@ export default function GrowthSection({ onOpenProposal }: GrowthSectionProps) {
             >
               {/* Premium image representing user's original segment */}
               <img
-                src="/src/assets/images/business_growth_graph_1781262259551.jpg"
+                src={businessGrowthGraphImage}
                 alt="Business growth analytical timeline graph mockup"
                 className="w-full h-full object-cover select-none"
                 referrerPolicy="no-referrer"

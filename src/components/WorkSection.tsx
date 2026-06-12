@@ -17,22 +17,22 @@ export default function WorkSection({ onOpenProposal }: WorkSectionProps) {
     {
       title: 'IUNIK',
       tags: ['Marketing'],
-      img: '/src/assets/images/portfolio_iunik_1781262529259.jpg'
+      img: iunikImage
     },
     {
       title: 'Water Bank',
       tags: ['PPC', 'SEO'],
-      img: '/src/assets/images/portfolio_waterbank_1781262548192.jpg'
+      img: waterbankImage
     },
     {
       title: 'One Two Free',
       tags: ['Social Media'],
-      img: '/src/assets/images/portfolio_onetwofree_1781262562331.jpg'
+      img: oneTwoFreeImage
     },
     {
       title: 'Heartleaf 88',
       tags: ['Marketing'],
-      img: '/src/assets/images/portfolio_heartleaf_1781262581898.jpg'
+      img: heartleafImage
     }
   ];
 
