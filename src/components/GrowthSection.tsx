@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { TrendingUp, Activity, Users, Zap, MousePointerClick } from 'lucide-react';
+import businessGrowthGraphImage from '../assets/images/business_growth_graph_1781262259551.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 

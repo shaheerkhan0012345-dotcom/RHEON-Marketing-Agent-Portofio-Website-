@@ -3,6 +3,10 @@ import { motion } from 'motion/react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ArrowUpRight } from 'lucide-react';
+import iunikImage from '../assets/images/portfolio_iunik_1781262529259.jpg';
+import waterbankImage from '../assets/images/portfolio_waterbank_1781262548192.jpg';
+import oneTwoFreeImage from '../assets/images/portfolio_onetwofree_1781262562331.jpg';
+import heartleafImage from '../assets/images/portfolio_heartleaf_1781262581898.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 
